@@ -1,0 +1,48 @@
+#Obje1 {
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cua1 {
+    background-color: red;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+#cua2 {
+    background-color: red;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+#cua3 {
+    background-color: red;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+#pie1 {
+    height: 100px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#pie2 {
+    height: 100px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
