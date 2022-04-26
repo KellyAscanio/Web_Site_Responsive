@@ -19,6 +19,11 @@ Maqueta 3
 ![](https://github.com/KellyAscanio/Web_Site_Responsive/blob/KJascanio/MAQUETA2.jpg)
 
 Maqueta 4
+
 ![](https://github.com/KellyAscanio/Web_Site_Responsive/blob/KJascanio/MAQUETA4.jpg)
+
+Maqueta 5
+
+![](https://github.com/KellyAscanio/Web_Site_Responsive/blob/KJascanio/MAQUETA5.jpg)
 
 CONCLUSIONES: 
