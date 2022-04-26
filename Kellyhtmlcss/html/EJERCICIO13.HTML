@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--Centro de Biotecnología Agropecuaría Análisis y desarrollo de sofware
+ficha:2470980
+Autor: Kelly Johana Ascanio
+fecha de creación: 16 de febrero de 2022
+fecha de actualización: 22 de febrero de 2022-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+    <link rel="icon" href="imagen/reloj.png">
+    <link rel="stylesheet" href="../css/EJERCICIO13.CSS">
+</head>
+
+<body>
+    <div id="container">
+        <h3 class="trece">Rellena tu CV</h3>
+        <form action="/php/insertar_CV.php" method="post" enctype="multipart/form-data">
+            <table class="trece">
+                Nombre <br/>
+                <input type="text" name="nombre" value="" size="20" maxlength="30" />
+                <br/> Apellidos <br/>
+                <input type="text" name="apellido" value="" size="50" maxlength="80" />
+                <br/> Contraseña <br/>
+                <input type="password" name="contraseña" value="" maxlength="10" />
+                <br/> DNI <br/>
+                <input type="text" name="dni" value="" size="10" maxlength="9" />
+                <br/> Sexo <br/>
+                <input type="radio" name="sexo" value="hombre" checked="checked" />
+                <input type="radio" name="sexo" value="mujer" />Mujer
+                <br/><br/>
+                <input type="submit" name="enviar" value="Guardar cambios" />
+                <input type="reset" name="Limpiar" value="Borrar los datos introducidos" />
+            </table>
+        </form>
+        <!--Definición del funcionamiento de las etiquetas.
+        La etiqueta <h3> Para crear títulos de párrafos, con un orden de importancia que va desde <h1> hasta <h6>.
+        La etiqueta <form>  representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web. 
+        La etiqueta <br> es un salto de línea simple.
+        La etiqueta <input> se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.-->
+    </div>
+</body>
+
+</html>

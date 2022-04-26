@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+}
+
+#tit {
+    color: aquamarine;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.once {
+    color: black;
+}
+
+#container {
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(98, 105, 105);
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,27 @@
+/*Centro de Biotecnología Agropecuaría Análisis y desarrollo de sofware
+ficha:2470980
+Autor: Kelly Johana Ascanio
+fecha de creación: 16 de febrero de 2022
+fecha de actualización: 22 de febrero de 2022*/
+
+body {
+    background-color: rgb(74, 138, 72);
+}
+
+#tit {
+    color: rgb(151, 128, 173);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tres {
+    color: brown;
+}
+
+#container {
+    width: 700px;
+    height: 500px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+}

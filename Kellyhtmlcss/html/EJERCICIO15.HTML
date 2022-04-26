@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--Centro de Biotecnología Agropecuaría Análisis y desarrollo de sofware
+ficha:2470980
+Autor: Kelly Johana Ascanio
+fecha de creación: 16 de febrero de 2022
+fecha de actualización: 22 de febrero de 2022-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre el producto</title>
+    <link rel="icon" href="imagen/pngtree-draw-wooden-icon-png-image_1874796.jpg">
+    <link rel="stylesheet" href="../css/EJERCICIO15.CSS">
+</head>
+
+<body>
+    <div id="container">
+        <h3 class="quince">Información sobre el producto</h3>
+        <form action="/php/Insertar_subasta.php" method="post" enctype="multipart/form-data">
+            <fieldset class="quince">
+                <legend>Datos básicos</legend>
+                <label for="nombre">Nombre</label> 
+                <input type="text" name="nombre" id="Nombre" size="50" maxlength="250">
+                <br/><br/>
+                <label for="descripción">Descripción</label><br/>
+                <textarea name="descripción" id="descripción" cols="40" rows="5"></textarea>
+                <br/><br/> Foto
+                <input type="file" name="foto" />
+                <br/><br/>
+                <input name="contador" type="checkbox" value="si" />Añadir contador de visitas
+            </fieldset>
+            <fieldset class="quince">
+                <legend>Datos económicos</legend>
+                <label for="precio"></label>
+                <input type="text" size="5" id="precio" name="precio" /> &euro; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="impuestos">Impuestos</label>
+                <select name="Impuestos" id="Impuestos">
+                    <option value="4">4%</option>
+                    <option value="7">7%</option>
+                    <option value="16">16%</option>
+                    <option value="25">25%</option>
+                </select>
+                <br/><br/>
+                <label>Promoción</label><br/>
+                <input type="radio" name="promoción" value="ninguno" checked="checked" /> Ninguno <br/>
+                <input type="radio" name="Promoción" value="portes" /> Transporte gratuito <br/>
+                <input type="radio" name="promoción" value="descuento" />Descuento 5%
+            </fieldset>
+        </form>
+        <!--Definición del funcionamiento de las etiquetas.
+        La etiqueta <h3> Para crear títulos de párrafos, con un orden de importancia que va desde <h1> hasta <h6>.
+        La etiqueta <form>  representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web. 
+        La etiqueta <fieldset> permite organizar en grupos los campos de un formulario. 
+        La etiqueta <legend> crea un título para un grupos los campos ( <fieldset> ) de un formular.
+        La etiqueta <label> representa una etiqueta para un elemento en una interfaz de usuario. Este puede estar asociado con un control ya sea mediante la utilizacion del atributo for, o ubicando el control dentro del elemento label. Tal control es llamado "el control etiquetado" del elemento label.
+        La etiqueta <textarea> representa un control para la edición mutilínea de texto sin formato.
+        La etiqueta <select> representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos <option> , los cuales pueden ser agrupados por elementos <optgroup> 
+        La etiqueta <option> se usa para representar un item dentro de un <select>
+        La etiqueta <input> se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.
+        La etiqueta <br> es un salto de línea simple.-->
+    </div> 
+</body>
+
+</html>
