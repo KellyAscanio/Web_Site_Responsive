@@ -1,6 +1,5 @@
-# Bootstrap
+
 Trabajo de maquetación
-[bootstrap.zip](https://github.com/KellyAscanio/Web_Site_Responsive/files/8310104/bootstrap.zip)
 Elaborado por Kelly Ascanio
 
 ¿Què es bootstrap? Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.
