@@ -10,4 +10,7 @@ Maqueta 1
 
 ![](https://github.com/KellyAscanio/Web_Site_Responsive/blob/main/MAQUETA1.jpg)
 
+Maqueta 1.2
+![](https://github.com/KellyAscanio/Web_Site_Responsive/blob/KJascanio/maqueta1%2C2.jpg)
+
 CONCLUSIONES: 
