@@ -6,4 +6,8 @@ Elaborado por Kelly Ascanio
 ¿Què es un Sitio Responsive? Un Sitio Responsive es aquel que es capaz de adaptarse a cualquier dispositivo donde se visualice.
 ¿En què consiste Proyecto? En Aplicar todo lo aprendido en clase, tal como HTML5, CSS3, JS3 y usar el framework de Bootstrap.
 
+Maqueta 1
+
+![](https://github.com/KellyAscanio/Web_Site_Responsive/blob/main/MAQUETA1.jpg)
+
 CONCLUSIONES: 
