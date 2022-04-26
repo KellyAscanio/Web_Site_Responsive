@@ -8,7 +8,7 @@ Elaborado por Kelly Ascanio
 
 Maqueta 1
 
-![](https://github.com/KellyAscanio/Web_Site_Responsive/blob/main/MAQUETA1.jpg)
+![](https://github.com/KellyAscanio/Web_Site_Responsive/blob/KJascanio/MAQUETA1.jpg)
 
 Maqueta 1.2
 
